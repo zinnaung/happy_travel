@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Travel</title>
+    <link rel="stylesheet" href="css/stylebase.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+<style>
+   .con{
+        display: flex;
+        justify-content: center;
+        gap: 0px 50px;
+    }
+    p{
+        text-align: left;
+    }
+    .santaku img{
+        text-align: left;
+    }
+    .game img{
+        text-align: left;
+    }
+    b{
+        color: #CF2828;
+    }
+    span{
+        color: #CF2828;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .mark{
+        text-align:center;
+    }
+</style>
+<body>
+  <div class="main">
+    <header>
+        <nav>
+          <a href="index.php"><img class="logo_left" src="css/コンポーネント 6 – 2.png" alt=""></a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="quiz.html">クイズ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./site/index.php">ショッピング</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.php">ログイン</a>
+                </li>
+             </ul>
+        </nav>
+        <div class="conimg">
+          <img class="imgcenter" src="css/グループ 9.png" alt="">
+          <div class="centered">クイズ</div>
+        </div>
+    </header>
+    <!-- 次の内容下記に入力してください↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <div>
+      <div class="con">
+        <div class="game">
+            <img class="mark" src="./quiz.htmlの画像/quiz_diff_icn.png">
+            <h2>間違い探しゲーム</h2>
+            <a href="game1.html"><img src="./quiz.htmlの画像/quiz_diff.png" width="300px" height="200px"id="prev" href="./game1.html">></a>
+            <p>大阪府の観光地の間違え探しが出ます。<br>
+            制限時間は<span>1分</span>で<b>5か所</b>全てに正解<br>
+            したらポイントがもらえます</p>
+        </div>
+        <div class="santaku">
+            <img class="mark" src="./quiz.htmlの画像/quiz_3_icn.png">
+            <h2>三択クイズ</h2>
+            <a href="santakugame1.html"><img src="./quiz.htmlの画像/pohto.matigai.jpg" width="300px" height="200px" id="prev" href="./santakugame1.html"></a>
+            <p>大阪府の観光についての問題が出ます。<br>
+            制限時間は<span>1分</span>で<b>10問</b>すべてに正解し<br>
+            たらポイントがもらえます。</p>
+      </div>
+    </div>
+
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑ -->
+  </div>
+    <div class="footerlast"> 
+        <ul class="last">
+         <li>A product of AAAGroups</li>
+         <li style="border-left: 0.1px solid rgb(151, 146, 146);"><a style="text-decoration: none;color: #295A43;" href="">お問い合わせ</a></li>
+         <li style="margin-left: 250px;"></a>Copy right(C) 2021 TSB All rights reserved.</li>
+        </ul>
+    </div>    
+</body>
+</html>

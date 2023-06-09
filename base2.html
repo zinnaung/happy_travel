@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Travel</title>
+    <link rel="stylesheet" href="css/stylebase.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+<body>
+  <div class="main">
+    <header>
+        <nav>
+          <a href="#"><img class="logo_left" src="css/コンポーネント 6 – 2.png" alt=""></a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">クイズ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="base.html">ショッピング</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ログイン</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">EN・JA</a>
+                </li>
+              </ul>
+        </nav>
+        <div class="conimg">
+          <img class="imgcenter" src="css/グループ 9.png" alt="">
+          <div class="centered">ショッピング</div>
+        </div>
+    </header>
+    <!-- 次の内容下記に入力してください↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <div class="wrap flex">
+      <div class="cart-panel">
+        <div class="header-title header-title1">Topページ > ショッピング > カート</div>
+        <div class="header-title header-title2">カートに入れた商品</div>
+        <div class="flex-between">
+          <div class="header-title header-title1">あなたのカートに3製品があります</div>
+          <div class="flex-center">
+            <img src="./images/icon-delete.png" alt="">
+            <span>キャンセル</span>
+          </div>
+        </div>
+        <div class="select-bar flex-between">
+          <div class="flex-center">
+            <input type="checkbox" class="checkbox">
+            <span>商品</span>
+          </div>
+          <div class="flex-center">
+            <span class="text">単価</span>
+            <span class="text">数量</span>
+            <span class="text">小計</span>
+            <span class="text">取消</span>
+          </div>
+        </div>
+        <div class="buy-list">
+          <div class="item flex-between">
+            <div class="flex-center">
+              <input type="checkbox">
+              <img src="..//shopping/images/06.jpg" alt="" class="good-img">
+              <div class="desc-box">
+                <div class="name">■トマト</div>
+                <img src="./images/2.0.png" alt="">
+              </div>
+            </div>
+            <div class="flex-center">
+              <div class="text">¥1700</div>
+              <input type="text" class="number">
+              <div class="text">¥1700</div>
+              <img src="./images/icon-delete.png" alt="" class="delete">
+            </div>
+          </div>
+          <div class="item flex-between">
+            <div class="flex-center">
+              <input type="checkbox">
+              <img src="..//shopping/images/21.jpg" alt="" class="good-img">
+              <div class="desc-box">
+                <div class="name">■スイカ</div>
+                <img src="./images/2.0.png" alt="">
+              </div>
+            </div>
+            <div class="flex-center">
+              <div class="text">¥3,580</div>
+              <input type="text" class="number">
+              <div class="text">¥3,580</div>
+              <img src="./images/icon-delete.png" alt="" class="delete">
+            </div>
+          </div>
+          <div class="item flex-between">
+            <div class="flex-center">
+              <input type="checkbox">
+              <img src="..//shopping/images/14.jpg" alt="" class="good-img">
+              <div class="desc-box">
+                <div class="name">■マンゴー</div>
+                <img src="./images/2.0.png" alt="">
+              </div>
+            </div>
+            <div class="flex-center">
+              <div class="text">¥918</div>
+              <input type="text" class="number">
+              <div class="text">¥918</div>
+              <img src="./images/icon-delete.png" alt="" class="delete">
+            </div>
+          </div>
+        </div>
+        <div class="control-box flex-between">
+          <div class="btn"><a href=base.html>←ショッピングを続ける</a></div>
+          <div class="btn">↺カートを更新する</div>
+        </div>
+
+  
+      </div>
+      <div class="logo-panel">
+        <img src="..//shopping/images/siharai.jpg" alt="">
+      </div>
+      
+    </div>
+      <div class="computed-box flex">
+        <div class="box left-box">
+          <div class="text1">配送料金</div>
+          <div style="margin-bottom: 10px;">均-料金:
+            <span class="light">％5</span>
+          </div>
+          <input type="text" placeholder="日本">
+          <div class="flex-center" style="margin-top: 10px; margin-bottom: 10px; justify-content:flex-start">
+            <input type="text" style="margin-right: 20px;" placeholder="都/道/県">
+            <input type="text" placeholder="郵便番号〒">
+          </div>
+        </div>
+        <div class="box right-box">
+          <div class="flex-between row">
+            <div class="label">小計</div>
+            <div class="light">¥6190</div>
+          </div>
+          <div class="flex-between">
+            <div class="label">送料</div>
+            <div class="black">無料</div>
+          </div>
+          <div class="flex-between row">
+            <div class="label">お届け先</div>
+            <div class="black">イギリス</div>
+          </div>
+          <div class="flex-between row">
+            <div class="label">ポイント（現在のポイント数:100PT）</div>
+            <div class="light">-20</div>
+          </div>
+          <div class="flex-between row">
+            <div class="label">合計金額</div>
+            <div class="light">¥6170</div>
+          </div>
+          <div class="btn">確認して支払う</div>
+        </div>
+      </div>
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑ -->
+  <footer>
+    <div class="footerlast1">
+        <ul class="last">
+         <li>A product of AAAGroups</li>
+         <li style="border-left: 0.1px solid rgb(151, 146, 146);"><a style="text-decoration: none;color: #295A43;" href="">お問い合わせ</a></li>
+         <li style="margin-left: 250px;"></a>Copy right(C) 2021 TSB All rights reserved.</li>
+        </ul>
+    </div>    
+  </footer>
+</body>
+</html>

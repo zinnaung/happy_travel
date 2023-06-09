@@ -1,0 +1,100 @@
+.mainlg{
+    opacity: 0.9;
+    font-size: 16px;
+
+}
+
+.container-lg {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+body {
+    background-image: url(../img/osaka-castle-g1b72f36bc_1920.jpg);
+}
+
+h1 {
+    color: #295a43;
+    padding: 5px 0px 10px 0px;
+    border-bottom: 3px double rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
+
+.login_area {
+    border: solid 1px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(151, 146, 146,0.9);
+    opacity: 100% !important;
+    text-align: center;
+    width: 500px;
+    margin-top: 15px;
+}
+.login_area p{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+}
+.inputtext {
+    width: 450px;
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+#button {
+    margin: 0px 0px 10px 0px ;
+    width: 300px;
+    height: 40px;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #359768;
+    border: none;
+}
+#button:hover{
+    color: #359768;
+    background-color: #ffffff;
+}
+.lg li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.lg li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.roguinniji {
+    text-align: center;
+}
+
+.moji {
+    background-color: rgb(151, 146, 146,0.9);
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    color: red;
+    width: 500px;
+    margin-top: 20px;
+    padding: 10px 10px 10px 20px;
+    font-size: 13px;
+}
+
+ul.lg{
+    background-color: rgb(151, 146, 146,0.9);
+    text-align: left;
+    border-radius: 10px 10px 10px 10px;
+    color: red;
+    width: 500px;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+#rogu {
+    /* font-size: 50px; */
+    color: #359768;
+    font-weight: bold;
+}

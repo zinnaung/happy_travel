@@ -1,0 +1,502 @@
+nav .nav-link {
+    color: #000000;
+}
+
+.nav-item a:hover {
+    color: #98AB40;
+}
+
+header .logo_left {
+    width: 15rem;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+}
+
+header {
+    background-color: white;
+    opacity: 100%;
+}
+
+header .imgcenter {
+    width: auto;
+    height: 250px;
+}
+
+.conimg img {
+    width: 100%;
+}
+
+.main {
+    /*background-image: url(../css/osaka-castle-g1b72f36bc_1920.jpg);*/
+    width: auto;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.main .mainbackground {
+    background-attachment: fixed;
+    width: auto;
+    height: 800px;
+}
+
+.last {
+    display: flex;
+    margin: 0;
+    padding: 5px 10px 0 10px;
+}
+
+.last li {
+    flex: 10 auto;
+    padding: 0px 10px 0 10px;
+    color: #295A43;
+}
+
+.footerlast ul {
+    list-style-type: none;
+    border-top: 3px double rgb(151, 146, 146);
+}
+
+.conimg {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.serach-panel {
+    margin: 30px 0;
+    position: relative;
+}
+
+.serach-panel .text {
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.serach-panel .search-box {
+    position: relative;
+    margin: 0 auto;
+}
+
+.serach-panel .search-icon {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.serach-panel input {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.serach-panel .cart {
+    width: 130px;
+}
+
+.cart img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.good-panel .titel {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.good-panel .list {
+    flex-wrap: wrap;
+}
+
+.good-panel .item {
+    width: 23.29%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.good-panel .item .item-wrap {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.good-panel .item .good-img {
+    width: 100%;
+    height: 200px;
+}
+
+.good-panel .item .name {
+    margin-bottom: 5px;
+}
+
+.good-panel .item .desc {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.good-panel .item .comment {
+    width: 80px;
+    height: 16px;
+    margin-bottom: 10px;
+}
+
+.good-panel .item .cart-img {
+    width: 25px;
+}
+
+.good-panel .item .text1 {
+    color: rgba(41, 194, 74, 0.945);
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.header-title {
+    margin-bottom: 10px;
+}
+
+.header-title1 {
+    font-size: 14px;
+}
+
+.header-title2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.serach-panel {
+    margin: 30px 0;
+    position: relative;
+}
+
+.serach-panel .text {
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.serach-panel .search-box {
+    position: relative;
+    margin: 0 auto;
+}
+
+.serach-panel .search-icon {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.serach-panel input {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.serach-panel .cart {
+    width: 130px;
+}
+
+a {
+    text-decoration: none
+}
+
+.cart img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.good-panel .titel {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.good-panel .list {
+    flex-wrap: wrap;
+}
+
+.good-panel .item {
+    width: 23.29%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.good-panel .item .item-wrap {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.good-panel .item .good-img {
+    width: 100%;
+    height: 200px;
+}
+
+.good-panel .item .name {
+    margin-bottom: 5px;
+}
+
+.good-panel .item .desc {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.good-panel .item .comment {
+    width: 80px;
+    height: 16px;
+    margin-bottom: 10px;
+}
+
+.good-panel .item .cart-img {
+    width: 25px;
+}
+
+.good-panel .item .text1 {
+    color: rgba(41, 194, 74, 0.945);
+    margin-right: 10px;
+}
+
+.footer {
+    padding-bottom: 10px;
+}
+
+.footer .panel1 {
+    width: 100%;
+    padding: 15px 0;
+    height: 280px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.footer .panel1 .left {
+    flex: 2;
+    border-right: 1px solid #ddd;
+}
+
+.footer .panel1 .box {
+    text-align: center;
+    flex: 1;
+}
+
+.footer .panel1 .box .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #006600;
+}
+
+.footer .panel1 .box .text {
+    color: green;
+    margin-bottom: 5px;
+}
+
+.footer .panel1 .right {
+    flex: 1;
+}
+
+.footer .line {
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 10px;
+}
+
+.footer .copy-box {
+    height: 30px;
+}
+
+.footer .bar {
+    width: 1px;
+    height: 14px;
+    background: #ddd;
+    margin: 0 15px;
+    position: relative;
+    top: 4px;
+}
+
+.footer .copy-text {
+    margin: 0 auto;
+}
+
+.cart-panel {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.logo-panel {
+    flex: 1;
+}
+
+.logo-panel img {
+    width: 100%;
+    height: 340px;
+    margin-top: 100px;
+}
+
+.select-bar {
+    width: 100%;
+    height: 35px;
+    border-radius: 35px;
+    background: #ddd;
+    color: black;
+    font-size: 12px;
+    padding: 0 20px;
+    padding-right: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.select-bar .checkbox {
+    margin-right: 30px;
+}
+
+.select-bar .text {
+    margin-right: 30px;
+}
+
+.buy-list .item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.buy-list .item .good-img {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.buy-list .item .number {
+    border: 1px solid greenyellow;
+    width: 30px;
+    margin-right: 30px;
+}
+
+.buy-list .item .text {
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.buy-list .item .delete {
+    margin-right: 30px;
+}
+
+.computed-box {
+    margin-top: 20px;
+}
+
+.control-box .btn,
+.computed-box .btn {
+    height: 35px;
+    background: rgb(46, 197, 91);
+    color: white;
+    padding: 0 10px;
+    border-radius: 35px;
+    line-height: 35px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.computed-box .box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.computed-box .left-box {
+    flex: 1;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.computed-box .text1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.computed-box .light {
+    color: rgb(46, 197, 91);
+}
+
+.computed-box .right-box {
+    flex: 1;
+}
+
+.computed-box input {
+    height: 26px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.computed-box .label {
+    font-size: 12px;
+    color: rgb(228, 216, 216);
+    font-weight: bold;
+}
+
+.computed-box .black {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    ;
+}
+
+.computed-box .row {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footerlast {
+    position: absolute;
+    top: 1450px;
+}
+
+.footerlast1 {
+    position: absolute;
+    top: 1100px;
+}
